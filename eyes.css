@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+body {
+  background: #99CCFF url(http://i.imgur.com/fqA2hnM.png) no-repeat left top;
+}
+
+#title {
+  margin-left: 490px;
+  margin-top: 200px;
+  width: 400px;
+  text-align: center;
+  font: 800 100px/1 'Open Sans', sans-serif;
+  color: blue;
+  text-shadow:
+    0 1px 0 #fff, 0 4px 0 #fff,
+    0 -1px 0 #fff, 0 -4px 0 #fff,
+    1px 0 0 #fff, 4px 0 0 #fff,
+    -1px 0 0 #fff, -4px 0 0 #fff,
+    -10px 0 10px rgba(0,0,0,0.3),
+    0 10px 10px rgba(0,0,0,0.3);
+}
